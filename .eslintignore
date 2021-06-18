@@ -1,0 +1,11 @@
+node_modules
+/config
+*.config.js
+*.md
+*.html
+
+src/modules/**/*.js
+src/**/*.stories.js
+src/stories/*.js
+src/components/dashboard/widgets/TrendChartWidget copy.js
+serve/
