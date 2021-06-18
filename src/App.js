@@ -3,6 +3,7 @@ import { Layout } from 'antd'
 import { Helmet } from 'react-helmet'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import { routes as mainRoutes } from './routes'
+import { hot } from 'react-hot-loader'
 
 import { Container } from './components/commons'
 
@@ -69,5 +70,5 @@ class App extends Component {
         )
     }
 }
+export default hot(module)(App);
 
-export default App

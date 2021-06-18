@@ -24,11 +24,9 @@ const render = Component => {
     const rootElement = document.getElementById('root')
     rootElement.style.height = '100%'
     ReactDOM.render(
-        <AppContainer>
             <ConfigProvider locale={antResources[i18nClient.language]}>
                 <Component />
-            </ConfigProvider>
-        </AppContainer>,
+            </ConfigProvider>,
         rootElement,
     )
 }
